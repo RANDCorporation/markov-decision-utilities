@@ -1,0 +1,9 @@
+state,name,time_0,outcome_value_0,time_1,outcome_value_1,time_2,outcome_value_2,time_3,outcome_value_3,time_4,outcome_value_4
+1,Assess nuclear basing in Cuba,1,0,1,0,1,0,1,0,1,0
+2,Move nuclear missiles to Cuba,1,0,1,0,1,0,1,0,1,0
+3,No missiles in Cuba,1,10,1,10,1,100,1,100,1,100
+4,Missiles remain in Cuba,1,-100,1,-100,1,-100,1,-100,1,-100
+5,US naval blockade of Cuba,1,0,1,0,1,0,1,0,1,0
+6,US attacks Cuba to remove missiles,1,0,1,0,1,0,1,0,1,0
+7,Limited conflict between US and Soviet Union,1,0,1,0,1,0,1,0,1,0
+8,All-out conflict between US and Soviet Union,1,0,1,0,1,0,1,-1000,1,-1000

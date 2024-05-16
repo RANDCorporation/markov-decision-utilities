@@ -1,0 +1,17 @@
+scenario_id,scenario_name,default_starting_state
+0,Baseline blue stealth - Probability,1
+1,Baseline blue stealth - Improved probability,1
+2,With threat to red - Probability,1
+3,With threat to red - Improved probability,1
+4,With threat and friendly - Probability,1
+5,With threat and friendly - Improved probability,1
+6,With threat to red - Probability (High Risk),1
+7,With threat to red - Probability (Higher Risk),1
+8,Baseline blue stealth - Probability (Uniform Residence Time),1
+9,Baseline blue stealth - Improved probability (Uniform Residence Time),1
+10,With threat to red - Probability (Uniform Residence Time),1
+11,With threat to red - Improved probability (Uniform Residence Time),1
+12,With threat and friendly - Probability (Uniform Residence Time),1
+13,With threat and friendly - Improved probability (Uniform Residence Time),1
+14,With threat to red - Probability (High Risk) (Uniform Residence Time),1
+15,With threat to red - Probability (Higher Risk) (Uniform Residence Time),1
