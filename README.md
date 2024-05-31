@@ -203,7 +203,7 @@ If you re-use the Markov Decision Utilities code in a scientific publication, we
 @misc{Sargent2024,
     author    = {Matthew Sargent, Edward Parker, James Syme, and Vikram Kilambi},
     year      = {2024},
-	publisher = {RAND},
+    publisher = {RAND},
     title     = {Markov Decision Utilities},
     url       = {https://github.com/RANDCorporation/markov-decision-utilities}
 }
