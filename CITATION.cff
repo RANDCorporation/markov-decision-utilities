@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: Markov Decision Utilities
+message: Suggested Citation
+type: software
+authors:
+  - email: msargent@rand.org
+    given-names: Matthew
+    family-names: Sargent
+    affiliation: RAND
+repository-code: >-
+  https://github.com/RANDCorporation/markov-decision-utilities
+url: 'https://www.rand.org/t/RRA1596-1'
+abstract: >-
+  Julia implementation for some Markov chain processes,
+  including defining and implementing transition matrix from
+  a sparse text file using variables, finding steady states
+  and absorption probabilities, and simulating random walks.
+license: MIT

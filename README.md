@@ -186,3 +186,27 @@ Note that the analytical solution is $B = FR$, where $F = (I - Q)^{-1}$ is the f
 
 For more information, see the docstring at `?run_package_simulation!` (this can be tried in the iJupyter notebook or from the Julia REPL).
 
+## BibTeX Citation
+
+If you re-use the Markov Decision Utilities code in a scientific publication, we would appreciate it if you use the following citations:
+
+```
+@book{Sargent2024,
+    url       = {https://rand.org/t/RRA1596-1},
+    year      = {2024},
+    publisher = {RAND},
+    pages     = {67},
+    author    = {Matthew Sargent, Edward Parker, James Syme, and Vikram Kilambi},
+    title     = {Developing Models and Metrics to Assess the Impacts of Complexity in Operational Settings}
+}
+
+@misc{Sargent2024,
+    author    = {Matthew Sargent, Edward Parker, James Syme, and Vikram Kilambi},
+    year      = {2024},
+    publisher = {RAND},
+    title     = {Markov Decision Utilities},
+    url       = {https://github.com/RANDCorporation/markov-decision-utilities}
+}
+```
+
+
