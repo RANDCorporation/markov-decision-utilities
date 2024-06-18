@@ -16,7 +16,7 @@ For questions about this package, contact [Matthew Sargent](mailto:msargent@rand
 
 #  0. Quick Start
 
-It is easy to begin with the default settings located in the `complexity_modeling.config` file (using the `cuban_missile_crisis` example dataset). The do a basic run based on configuration defaults, open the Julia REPL, navigate to the `./julia` directory, and run the following lines of code:
+It is easiest to begin with the default settings located in the `complexity_modeling.config` file (using the `cuban_missile_crisis` example dataset). The do a basic run based on configuration defaults, open the Julia REPL, navigate to the `./julia` directory, and run the following lines of code:
 
 ```
 # load the ./julia directory to the load path to find the modules
@@ -185,6 +185,11 @@ Note that the analytical solution is $B = FR$, where $F = (I - Q)^{-1}$ is the f
     - `state_entropies.csv`: the input state entropies for each state and scenario.
 
 For more information, see the docstring at `?run_package_simulation!` (this can be tried in the iJupyter notebook or from the Julia REPL).
+
+## Python Code
+
+The contents of the 'python' folder are used to visualize the outputs from the modules in the 'julia' folder.
+
 
 ## BibTeX Citation
 

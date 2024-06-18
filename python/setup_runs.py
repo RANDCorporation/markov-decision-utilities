@@ -19,7 +19,7 @@ dir_data = os.path.join(os.path.dirname(dir_proj), "data")
 
 dir_out = os.path.join(dir_proj, "out")
 if not os.path.exists(dir_out):
-    od.makedirs(dir_out, exist_ok = True)
+    os.makedirs(dir_out, exist_ok = True)
 dir_ref = os.path.join(dir_proj, "ref")
 dir_datasets = os.path.join(dir_ref, "datasets")
 
