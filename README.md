@@ -67,7 +67,7 @@ Additionally, `attribute_state.csv` requires 2 additional fields *for each scena
 
 ###  Transition Matrices by Scenario (transition_matrices_by_scenario.csv)
 
-`transition_matrices_by_scenario.csv` defines the transition matrices for each scenario using a sparse array schema. Transitions are added as elements in a stochastic matrix (**NOTE:** the orientation of the matrix is set in `complexity_modeling.config`. This example uses the default, a row-stochastic matrix.); i.e., to specify a transition from $1 \to 2$, ensure that there is a row where $i = 1$ and $j = 2$. The transition probability associated with scenario $\#$ is entered in a row with the name `transition_expression_scenario_#`.
+`transition_matrices_by_scenario.csv` defines the transition matrices for each scenario using a sparse array schema. Transitions are added as elements in a stochastic matrix (**NOTE:** the orientation of the matrix is set in `complexity_modeling.config`. This example uses the default, a row-stochastic matrix.); i.e., to specify a transition from $1 \to 2$, ensure that there is a row where $i = 1$ and $j = 2$. The transition probability associated with scenario $\\#$ is entered in a row with the name `transition_expression_scenario_#`.
 
 Users should keep the following in mind when entering transition matrices:
     - Transitions that aren't entered are assumed to occur with probability 0
@@ -80,7 +80,7 @@ Users should keep the following in mind when entering transition matrices:
     - `j` (type `Int64`): the target or end state (transition in)--must be defined in `attribute_state.csv`
 
 Finally, the following field must be entered for each scenario defined in `attribute_scenario.csv`:
-    - `transition_expression_scenario_#` (type `Float64` or `String`): Most users should only enter Float64 expressions. This field gives transition probabilities for scenario $\#$. However, it is possible to enter symbolic expressions, such as `"1 - A"` (where `A` is the symbolic variable) in this field, allowing users to evaluate a range of matrices. However, if doing so, an associated variable must be specified in the configuration file that gives a default value for `A` (for example `variable_A: 0.15`). The definition of a default symbolic variable value allows the model to run a number of scenarios without exploring over the symbolic variable. MarkovModel functions allow for users to set specific values of symbolic variables for individual runs.
+    - `transition_expression_scenario_#` (type `Float64` or `String`): Most users should only enter Float64 expressions. This field gives transition probabilities for scenario $\\#$. However, it is possible to enter symbolic expressions, such as `"1 - A"` (where `A` is the symbolic variable) in this field, allowing users to evaluate a range of matrices. However, if doing so, an associated variable must be specified in the configuration file that gives a default value for `A` (for example `variable_A: 0.15`). The definition of a default symbolic variable value allows the model to run a number of scenarios without exploring over the symbolic variable. MarkovModel functions allow for users to set specific values of symbolic variables for individual runs.
 
 
 ##  `default_transition_scenario`
